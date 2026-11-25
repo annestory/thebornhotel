@@ -1,0 +1,6 @@
+{
+  "name": "백종원 · THEBORN | 요리 사업가 & 대중음식 셰프 포트폴리오",
+  "description": "맛의 대중화를 설계하는 요리 사업가이자 대중음식 셰프의 철학, 시그니처 다이닝 브랜드, 그리고 호스피탈리티 공간을 소개하는 반응형 웹 포트폴리오입니다.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
