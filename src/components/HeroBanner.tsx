@@ -72,7 +72,7 @@ export default function HeroBanner() {
                       <div className="mt-7 flex items-center gap-4">
                         <a
                           href={slide.ctaHref}
-                          className="inline-flex items-center gap-2 rounded-md bg-[#15803D] px-5 py-3 text-sm font-semibold text-white transition-colors duration-150 hover:bg-[#166534] whitespace-nowrap shrink-0 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                          className="inline-flex items-center gap-2 rounded-md bg-[#C8232C] px-5 py-3 text-sm font-semibold text-white transition-colors duration-150 hover:bg-[#A61B23] whitespace-nowrap shrink-0 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
                         >
                           <span>{slide.ctaText}</span>
                           <ArrowRight size={16} weight="bold" aria-hidden="true" />

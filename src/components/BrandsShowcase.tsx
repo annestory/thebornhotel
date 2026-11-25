@@ -68,7 +68,7 @@ export default function BrandsShowcase() {
         {/* Section Header */}
         <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
           <div className="max-w-2xl">
-            <p className="text-xs font-semibold text-[#15803D]">02. SIGNATURE DINING ARCHIVE</p>
+            <p className="text-xs font-semibold text-[#C8232C]">02. SIGNATURE DINING ARCHIVE</p>
             <h2
               id="brands-heading"
               className="mt-2.5 text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight text-zinc-900"
@@ -105,7 +105,7 @@ export default function BrandsShowcase() {
                 }}
                 placeholder="브랜드 또는 메뉴 검색 (예: 우삼겹, 짬뽕)"
                 aria-label="브랜드 또는 대표 메뉴 검색어"
-                className="h-11 w-full rounded-md border border-zinc-300 bg-white pl-10 pr-9 text-sm text-zinc-900 placeholder:text-zinc-400 focus:border-[#15803D] focus:outline-none"
+                className="h-11 w-full rounded-md border border-zinc-300 bg-white pl-10 pr-9 text-sm text-zinc-900 placeholder:text-zinc-400 focus:border-[#C8232C] focus:outline-none"
               />
               {searchInput && (
                 <button
@@ -184,7 +184,7 @@ export default function BrandsShowcase() {
                 <button
                   type="button"
                   onClick={() => setSelectedBrand(brand)}
-                  className="flex flex-1 flex-col text-left focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#15803D]"
+                  className="flex flex-1 flex-col text-left focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#C8232C]"
                 >
                   <div className="aspect-[16/10] w-full overflow-hidden bg-zinc-100">
                     <SafeImage
@@ -199,17 +199,17 @@ export default function BrandsShowcase() {
                     <div>
                       {/* Zero-Pill Unboxed Metadata */}
                       <div className="flex items-center gap-2 text-xs font-medium text-zinc-500 tabular-nums">
-                        <span className="text-[#15803D]">{brand.categoryLabel}</span>
+                        <span className="text-[#C8232C]">{brand.categoryLabel}</span>
                         <span aria-hidden="true">·</span>
                         <span>{brand.hours}</span>
                       </div>
 
-                      <h3 className="mt-2.5 flex items-center justify-between gap-2 text-lg font-bold text-zinc-900 group-hover:text-[#15803D] transition-colors">
+                      <h3 className="mt-2.5 flex items-center justify-between gap-2 text-lg font-bold text-zinc-900 group-hover:text-[#C8232C] transition-colors">
                         <span>{brand.name}</span>
                         <ArrowUpRight
                           size={18}
                           weight="bold"
-                          className="shrink-0 text-zinc-400 transition-transform duration-200 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 group-hover:text-[#15803D]"
+                          className="shrink-0 text-zinc-400 transition-transform duration-200 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 group-hover:text-[#C8232C]"
                           aria-hidden="true"
                         />
                       </h3>
@@ -282,7 +282,7 @@ export default function BrandsShowcase() {
           >
             <div className="sticky top-0 z-10 flex items-center justify-between border-b border-zinc-200 bg-white/95 px-6 py-4 backdrop-blur-sm">
               <div>
-                <p className="text-xs font-medium text-[#15803D]">{selectedBrand.englishName}</p>
+                <p className="text-xs font-medium text-[#C8232C]">{selectedBrand.englishName}</p>
                 <h3 id="modal-brand-title" className="text-lg sm:text-xl font-bold text-zinc-900">
                   {selectedBrand.name}
                 </h3>
@@ -309,11 +309,11 @@ export default function BrandsShowcase() {
 
               <div className="mt-6 flex flex-wrap items-center gap-x-6 gap-y-2 border-b border-zinc-200 pb-4 text-xs sm:text-sm text-zinc-600 tabular-nums">
                 <span className="inline-flex items-center gap-1.5">
-                  <Clock size={16} weight="bold" className="text-[#15803D]" aria-hidden="true" />
+                  <Clock size={16} weight="bold" className="text-[#C8232C]" aria-hidden="true" />
                   <span>{selectedBrand.hours}</span>
                 </span>
                 <span className="inline-flex items-center gap-1.5">
-                  <MapPin size={16} weight="bold" className="text-[#15803D]" aria-hidden="true" />
+                  <MapPin size={16} weight="bold" className="text-[#C8232C]" aria-hidden="true" />
                   <span>{selectedBrand.location}</span>
                 </span>
                 {selectedBrand.breakTime && (

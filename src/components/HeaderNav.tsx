@@ -21,7 +21,7 @@ export default function HeaderNav() {
         {/* Zone 1: Single-line brand wordmark */}
         <a
           href="#hero"
-          className="font-editorial text-lg font-bold tracking-tight text-zinc-900 whitespace-nowrap shrink-0 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#15803D]"
+          className="font-editorial text-lg font-bold tracking-tight text-zinc-900 whitespace-nowrap shrink-0 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#C8232C]"
         >
           백종원 · THEBORN
         </a>
@@ -32,7 +32,7 @@ export default function HeaderNav() {
             <a
               key={item.href}
               href={item.href}
-              className="nav-link-underline text-sm font-medium text-zinc-600 transition-colors duration-150 hover:text-zinc-900 whitespace-nowrap shrink-0 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#15803D]"
+              className="nav-link-underline text-sm font-medium text-zinc-600 transition-colors duration-150 hover:text-zinc-900 whitespace-nowrap shrink-0 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#C8232C]"
             >
               {item.label}
             </a>
@@ -43,7 +43,7 @@ export default function HeaderNav() {
         <div className="flex items-center gap-3 shrink-0">
           <a
             href="#contact"
-            className="hidden sm:inline-flex items-center justify-center rounded-md bg-[#15803D] px-4 py-2 text-xs font-semibold text-white transition-colors duration-150 hover:bg-[#166534] whitespace-nowrap shrink-0 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#15803D]"
+            className="hidden sm:inline-flex items-center justify-center rounded-md bg-[#C8232C] px-4 py-2 text-xs font-semibold text-white transition-colors duration-150 hover:bg-[#A61B23] whitespace-nowrap shrink-0 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#C8232C]"
           >
             협업 · 예약 문의
           </a>
@@ -54,7 +54,7 @@ export default function HeaderNav() {
             aria-expanded={mobileMenuOpen}
             aria-controls="mobile-navigation"
             aria-label={mobileMenuOpen ? '메뉴 닫기' : '메뉴 열기'}
-            className="inline-flex h-11 w-11 items-center justify-center rounded-md text-zinc-800 transition-colors hover:bg-zinc-100 md:hidden focus-visible:outline-2 focus-visible:outline-[#15803D]"
+            className="inline-flex h-11 w-11 items-center justify-center rounded-md text-zinc-800 transition-colors hover:bg-zinc-100 md:hidden focus-visible:outline-2 focus-visible:outline-[#C8232C]"
           >
             {mobileMenuOpen ? <X size={22} weight="bold" /> : <List size={22} weight="bold" />}
           </button>
@@ -74,7 +74,7 @@ export default function HeaderNav() {
                 <a
                   href={item.href}
                   onClick={handleLinkClick}
-                  className="flex min-h-[44px] items-center rounded-md px-3 text-base font-medium text-zinc-800 transition-colors hover:bg-zinc-100 hover:text-[#15803D]"
+                  className="flex min-h-[44px] items-center rounded-md px-3 text-base font-medium text-zinc-800 transition-colors hover:bg-zinc-100 hover:text-[#C8232C]"
                 >
                   {item.label}
                 </a>
@@ -84,7 +84,7 @@ export default function HeaderNav() {
               <a
                 href="#contact"
                 onClick={handleLinkClick}
-                className="flex min-h-[44px] items-center justify-center rounded-md bg-[#15803D] px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-[#166534]"
+                className="flex min-h-[44px] items-center justify-center rounded-md bg-[#C8232C] px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-[#A61B23]"
               >
                 협업 · 예약 문의
               </a>

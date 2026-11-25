@@ -41,7 +41,7 @@ export default function PhilosophySection() {
           {/* Right: Culinary Entrepreneur & Popular-Dining Manifesto */}
           <div className="lg:col-span-7 flex flex-col justify-between py-2">
             <div>
-              <p className="text-xs font-semibold text-[#15803D]">01. CULINARY PHILOSOPHY</p>
+              <p className="text-xs font-semibold text-[#C8232C]">01. CULINARY PHILOSOPHY</p>
               <h2
                 id="philosophy-heading"
                 className="mt-3 text-2xl sm:text-3xl lg:text-4xl font-bold leading-tight tracking-tight text-zinc-900"
@@ -59,7 +59,7 @@ export default function PhilosophySection() {
               {CHEF_PHILOSOPHY.map((item) => (
                 <article key={item.number} className="py-6">
                   <div className="flex flex-col gap-2 sm:flex-row sm:items-baseline sm:gap-6">
-                    <span className="font-editorial text-xl font-bold text-[#15803D] tabular-nums shrink-0">
+                    <span className="font-editorial text-xl font-bold text-[#C8232C] tabular-nums shrink-0">
                       {item.number}.
                     </span>
                     <div>

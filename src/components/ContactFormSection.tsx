@@ -69,7 +69,7 @@ export default function ContactFormSection() {
           {/* Left: Hospitality Visual & Direct Contact Details */}
           <div className="lg:col-span-5 flex flex-col justify-between rounded-xl border border-zinc-200 bg-white p-6 sm:p-8">
             <div>
-              <p className="text-xs font-semibold text-[#15803D]">04. COLLABORATION &amp; BOOKING</p>
+              <p className="text-xs font-semibold text-[#C8232C]">04. COLLABORATION &amp; BOOKING</p>
               <h2
                 id="contact-heading"
                 className="mt-2.5 text-2xl sm:text-3xl font-bold tracking-tight text-zinc-900"
@@ -151,7 +151,7 @@ export default function ContactFormSection() {
                       id="inquiryType"
                       value={formData.inquiryType}
                       onChange={(e) => setFormData({ ...formData, inquiryType: e.target.value })}
-                      className="mt-1.5 h-11 w-full rounded-md border border-zinc-300 bg-white px-3.5 text-sm text-zinc-900 focus:border-[#15803D] focus:outline-none"
+                      className="mt-1.5 h-11 w-full rounded-md border border-zinc-300 bg-white px-3.5 text-sm text-zinc-900 focus:border-[#C8232C] focus:outline-none"
                     >
                       <option value="외식 브랜드 협업">외식 브랜드 협업</option>
                       <option value="단체 연회 · 다이닝 예약">단체 연회 · 다이닝 예약</option>
@@ -168,7 +168,7 @@ export default function ContactFormSection() {
                       id="brandInterest"
                       value={formData.brandInterest}
                       onChange={(e) => setFormData({ ...formData, brandInterest: e.target.value })}
-                      className="mt-1.5 h-11 w-full rounded-md border border-zinc-300 bg-white px-3.5 text-sm text-zinc-900 focus:border-[#15803D] focus:outline-none"
+                      className="mt-1.5 h-11 w-full rounded-md border border-zinc-300 bg-white px-3.5 text-sm text-zinc-900 focus:border-[#C8232C] focus:outline-none"
                     >
                       <option value="본가 Premium">본가 Premium</option>
                       <option value="도두반점">도두반점</option>
@@ -180,7 +180,7 @@ export default function ContactFormSection() {
 
                   <div>
                     <label htmlFor="name" className="block text-xs font-semibold text-zinc-700">
-                      성함 / 담당자명 <span className="text-[#15803D]">*</span>
+                      성함 / 담당자명 <span className="text-[#C8232C]">*</span>
                     </label>
                     <input
                       id="name"
@@ -189,13 +189,13 @@ export default function ContactFormSection() {
                       value={formData.name}
                       onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                       placeholder="예: 홍길동"
-                      className="mt-1.5 h-11 w-full rounded-md border border-zinc-300 bg-white px-3.5 text-sm text-zinc-900 placeholder:text-zinc-400 focus:border-[#15803D] focus:outline-none"
+                      className="mt-1.5 h-11 w-full rounded-md border border-zinc-300 bg-white px-3.5 text-sm text-zinc-900 placeholder:text-zinc-400 focus:border-[#C8232C] focus:outline-none"
                     />
                   </div>
 
                   <div>
                     <label htmlFor="contact-input" className="block text-xs font-semibold text-zinc-700">
-                      이메일 또는 연락처 <span className="text-[#15803D]">*</span>
+                      이메일 또는 연락처 <span className="text-[#C8232C]">*</span>
                     </label>
                     <input
                       id="contact-input"
@@ -204,14 +204,14 @@ export default function ContactFormSection() {
                       value={formData.contact}
                       onChange={(e) => setFormData({ ...formData, contact: e.target.value })}
                       placeholder="예: chef@theborn.co.kr 또는 010-1234-5678"
-                      className="mt-1.5 h-11 w-full rounded-md border border-zinc-300 bg-white px-3.5 text-sm text-zinc-900 placeholder:text-zinc-400 focus:border-[#15803D] focus:outline-none"
+                      className="mt-1.5 h-11 w-full rounded-md border border-zinc-300 bg-white px-3.5 text-sm text-zinc-900 placeholder:text-zinc-400 focus:border-[#C8232C] focus:outline-none"
                     />
                   </div>
                 </div>
 
                 <div>
                   <label htmlFor="message" className="block text-xs font-semibold text-zinc-700">
-                    상세 문의 내용 <span className="text-[#15803D]">*</span>
+                    상세 문의 내용 <span className="text-[#C8232C]">*</span>
                   </label>
                   <textarea
                     id="message"
@@ -220,7 +220,7 @@ export default function ContactFormSection() {
                     value={formData.message}
                     onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                     placeholder="희망 일정, 인원, 또는 협업 제안 내용을 자유롭게 작성해 주세요."
-                    className="mt-1.5 w-full rounded-md border border-zinc-300 bg-white p-3.5 text-sm text-zinc-900 placeholder:text-zinc-400 focus:border-[#15803D] focus:outline-none"
+                    className="mt-1.5 w-full rounded-md border border-zinc-300 bg-white p-3.5 text-sm text-zinc-900 placeholder:text-zinc-400 focus:border-[#C8232C] focus:outline-none"
                   />
                 </div>
 
@@ -240,7 +240,7 @@ export default function ContactFormSection() {
                   </p>
                   <button
                     type="submit"
-                    className="inline-flex h-11 items-center justify-center gap-2 rounded-md bg-[#15803D] px-6 text-sm font-semibold text-white transition-colors duration-150 hover:bg-[#166534] whitespace-nowrap shrink-0 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#15803D]"
+                    className="inline-flex h-11 items-center justify-center gap-2 rounded-md bg-[#C8232C] px-6 text-sm font-semibold text-white transition-colors duration-150 hover:bg-[#A61B23] whitespace-nowrap shrink-0 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#C8232C]"
                   >
                     <span>문의 접수하기</span>
                     <PaperPlaneTilt size={16} weight="bold" aria-hidden="true" />

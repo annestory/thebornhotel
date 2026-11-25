@@ -16,7 +16,7 @@ export default function SpacesSection() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
           <div className="max-w-2xl">
-            <p className="text-xs font-semibold text-[#4ADE80]">03. HOSPITALITY &amp; SPACE</p>
+            <p className="text-xs font-semibold text-[#EF4444]">03. HOSPITALITY &amp; SPACE</p>
             <h2
               id="spaces-heading"
               className="mt-2.5 text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight text-white"
@@ -42,7 +42,7 @@ export default function SpacesSection() {
               onClick={() => setActiveTab('rooms')}
               className={`min-h-[38px] rounded-md px-4 py-1.5 text-xs sm:text-sm font-medium transition-colors whitespace-nowrap shrink-0 ${
                 activeTab === 'rooms'
-                  ? 'bg-[#15803D] text-white'
+                  ? 'bg-[#C8232C] text-white'
                   : 'text-zinc-400 hover:text-white'
               }`}
             >
@@ -55,7 +55,7 @@ export default function SpacesSection() {
               onClick={() => setActiveTab('banquet')}
               className={`min-h-[38px] rounded-md px-4 py-1.5 text-xs sm:text-sm font-medium transition-colors whitespace-nowrap shrink-0 ${
                 activeTab === 'banquet'
-                  ? 'bg-[#15803D] text-white'
+                  ? 'bg-[#C8232C] text-white'
                   : 'text-zinc-400 hover:text-white'
               }`}
             >
