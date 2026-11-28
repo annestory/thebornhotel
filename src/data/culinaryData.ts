@@ -350,7 +350,7 @@ export const HOSPITALITY_SPACES: HospitalitySpace[] = [
     id: 'space-night',
     tab: 'banquet',
     title: '호텔더본 제주 · 미식 거점 아키텍처',
-    subtitle: 'THEBORN CULINARY HUB',
+    subtitle: 'THEGREEN CULINARY HUB',
     capacityOrSize: '서귀포 중문 · 6개 직영 F&B 및 연회 시설 집약',
     description:
       '좋은 숙소 안에 맛있는 식당들이 모여 있을 때 여행은 완성됩니다. 다다익고, 우수미 회센타 등 다양한 직영 레스토랑이 유기적으로 연결됩니다.',

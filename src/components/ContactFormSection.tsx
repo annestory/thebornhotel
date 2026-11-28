@@ -203,7 +203,7 @@ export default function ContactFormSection() {
                       required
                       value={formData.contact}
                       onChange={(e) => setFormData({ ...formData, contact: e.target.value })}
-                      placeholder="예: chef@theborn.co.kr 또는 010-1234-5678"
+                      placeholder="예: chef@thegreen.co.kr 또는 010-1234-5678"
                       className="mt-1.5 h-11 w-full rounded-md border border-zinc-300 bg-white px-3.5 text-sm text-zinc-900 placeholder:text-zinc-400 focus:border-[#C8232C] focus:outline-none"
                     />
                   </div>

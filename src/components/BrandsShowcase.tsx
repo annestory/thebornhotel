@@ -233,7 +233,7 @@ export default function BrandsShowcase() {
         <div className="mt-16 rounded-xl border border-zinc-200 bg-[#F7F7F5] p-6 sm:p-8">
           <div className="flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between border-b border-zinc-200 pb-5">
             <div>
-              <p className="text-xs font-semibold text-zinc-500">THEBORN JEJU CULINARY DIRECTORY</p>
+              <p className="text-xs font-semibold text-zinc-500">THEGREEN JEJU CULINARY DIRECTORY</p>
               <h3 className="mt-1 text-lg sm:text-xl font-bold text-zinc-900">
                 호텔더본 미식 스트리트 운영 안내
               </h3>

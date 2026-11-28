@@ -10,28 +10,28 @@ export default function PhilosophySection() {
           <div className="lg:col-span-5 flex flex-col justify-between rounded-xl border border-zinc-200 bg-white p-6 sm:p-8">
             <div>
               <p className="text-xs font-medium tracking-wide text-zinc-500">
-                Chef &amp; Founder Profile · 백종원
+                Chef &amp; Founder Profile · 백아람
               </p>
               <div className="mt-4 overflow-hidden rounded-lg bg-[#F5F5F3]">
                 <SafeImage
-                  src="/assets/aistudio/bg_ceo_c0cd06af.jpg"
-                  alt="커피 컵을 들고 환하게 웃는 요리 사업가 백종원 셰프 포트레이트"
-                  fallbackTitle="백종원 셰프 포트레이트"
-                  className="h-[340px] sm:h-[400px] w-full object-cover object-top"
+                  src="/assets/aistudio/Gemini_Generated_Image_hchk56hchk56hchk_425da11f.png"
+                  alt="활기찬 주방에서 불꽃 위로 웍을 돌리며 환하게 미소 짓는 셰프"
+                  fallbackTitle="주방에서 요리하는 셰프"
+                  className="h-[340px] sm:h-[400px] w-full object-cover object-center"
                 />
               </div>
             </div>
 
             <div className="mt-6 flex items-end justify-between gap-4 border-t border-zinc-100 pt-5">
               <div>
-                <p className="text-base font-bold text-zinc-900">백종원</p>
+                <p className="text-base font-bold text-zinc-900">백아람</p>
                 <p className="mt-0.5 text-xs text-zinc-500">
                   요리 사업가 · 대중음식 셰프 · 더본코리아 대표
                 </p>
               </div>
               <img
                 src="/assets/aistudio/ceo_sign_7cf6fe2b.jpg"
-                alt="백종원 셰프 자필 서명"
+                alt="백아람 셰프 자필 서명"
                 referrerPolicy="no-referrer"
                 className="h-10 w-auto object-contain mix-blend-multiply opacity-85"
               />

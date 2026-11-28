@@ -23,7 +23,7 @@ export default function HeaderNav() {
           href="#hero"
           className="font-editorial text-lg font-bold tracking-tight text-zinc-900 whitespace-nowrap shrink-0 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#C8232C]"
         >
-          백종원 · THEBORN
+          백아람 · THEGREEN
         </a>
 
         {/* Zone 2: 4 concise single-line nav links */}
